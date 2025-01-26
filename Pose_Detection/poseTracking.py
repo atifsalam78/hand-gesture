@@ -5,10 +5,11 @@ import tensorflow as tf
 # import mediapipe as mp
 import cv2 as cv
 import time
-import Pose_Detection.PoseTrackingModule as ptm
-
+import PoseTrackingModule as ptm
 
 cap = cv.VideoCapture(0)
+
+# cap = cv.VideoCapture("E:/Codes/videos/05.mp4")
 
 startTime = 0
 currentTime = 0
